@@ -69,7 +69,7 @@ export default compose(
       // marker inside rectangle normalize distance and return
       const dX = Math.abs(x - mouseX) / (MARKER_WIDTH / 2);
       const dY = Math.abs(y - mouseY) / (MARKER_HEIGHT / 2);
-      return Math.sqrt(dX * dX + dY * dY);
+      return Math.sqrt(dX * dX + dY * dY);π
     },
     onChildMouseEnter: ({ setHoveredMarkerId }) => (_, { id }) => {
       setHoveredMarkerId(id);
